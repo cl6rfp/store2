@@ -5,6 +5,9 @@
         },
         "api/about.php": {
             "runtime": "vercel-php@0.7.1"
+        },
+        "api/adduser.php": {
+            "runtime": "vercel-php@0.7.1"
         }
     },
     "routes": [
@@ -15,6 +18,10 @@
         {
             "src": "/about",
             "dest": "/api/about.php"
+        },
+        {
+            "src": "/user",
+            "dest": "/api/adduser.php"
         }
     ]
 }
