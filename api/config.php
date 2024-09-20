@@ -1,0 +1,12 @@
+<?php
+
+$DATABASE_HOST = 'sql103.infinityfree.com';
+$DATABASE_USER = 'if0_37248041';
+$DATABASE_PASS = 'Roly950625';
+$DATABASE_NAME = 'if0_37248041_store';
+
+$con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
+$conn = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
+$mysql = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
+
+?>
